@@ -7,7 +7,7 @@ Data set of cryptocurrencies is available as a CSV file to be analyzed in any wa
 
 ## Results
 To begin with, I preprocessed the data. I first of all read it to a Pandas DataFrame. This original dataframe had 1,252 rows and 6 columns. I kept all the cryptocurrencies that are being traded and have a working algorithm which reduced the rows to 1,144. I then dropped the 'IsTrading' column and removed rows that had at least one null value. The data frame now had 685 rows and 5 columns. The DataFrame was filtered so it only had rows where coins are mined and this reduced the rows to 532.
-rom this dataframe I created a new dataframe that held only the cryptocurrency names, and used the crypto_df DataFrame index as the index for this new DataFrame. Afterwards I removed the CoinName column from the crypto DataFrame since it was not going to be used on the clustering algorithm. The dataframe obtained is shown below:
+From this dataframe I created a new dataframe that held only the cryptocurrency names, and used the crypto_df DataFrame index as the index for this new DataFrame. Afterwards I removed the CoinName column from the crypto DataFrame since it was not going to be used on the clustering algorithm. The dataframe obtained is shown below:
 
 ![image1](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/image1.png)
 
