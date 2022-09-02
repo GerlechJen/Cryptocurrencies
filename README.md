@@ -61,9 +61,7 @@ Finally, using the above data frame, I create an hvplot scatter plot with "Total
 
 ## Summary
 
-To summarize, the crypocurrencies were grouped into 3. 
-
-
+To summarize, the crypocurrencies were grouped into 4 classes. BitTorrent was the best performing cryptocurrency. It belonged to class 2 and had a total coin supply of 0.99 and its total coins mined was 1. 
 
 
 ----
