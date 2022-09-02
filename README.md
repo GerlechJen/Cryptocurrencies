@@ -38,7 +38,18 @@ From the plot, the best value for K is 4. I then run the K-means algorithm to pr
 ![image4](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/clustered_df.png)
 
 
-Finally I made Visualizing Cryptocurrencies Results
+My final task on this project was to make visualizations of the Cryptocurrencies Results
+
+I created a 3D scatter plot using the Plotly Express scatter_3d() function to plot the three principal components PC 1, PC 2 and PC 3 from the clustered_df DataFrame. I added the CoinName and Algorithm columns to the hover_name and hover_data parameters, respectively, so each data point showed the CoinName and Algorithm on hover.
+
+![image6](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/3d%20plot.png)
+
+I finally created a table with tradable cryptocurrencies using the hvplot.table() function.
+
+
+Then I created a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
+
+
 
 
 
