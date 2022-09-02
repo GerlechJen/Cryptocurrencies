@@ -11,7 +11,7 @@ From this dataframe I created a new dataframe called names_df that held only the
 
 ![image1](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/image1.png)
 
-Using the get_dummies() method, I created variables for the two text features, 'Algorithm' and 'ProofType', and stored the resulting data in a new DataFrame named X. This dataframe had 532 rows and 98 columns. Then using the StandardScaler fit_transform() function, I standardized the features from the X DataFrame which completed the preprocessing of my data.
+Using the get_dummies() method, I created variables for the two text features, 'Algorithm' and 'ProofType', and stored the resulting data in a new DataFrame named X. This dataframe had 532 rows and 98 columns. Then using the StandardScaler fit_transform() function, I standardized the features from the X DataFrame which completed the preprocessing step of my data.
 
 Continuing with my tasks, I reduced the data dimensions using the Principal Component Analysis (PCA) algorithm. I reduced the dimensions of the X DataFrame to three principal components and placed these dimensions in a new DataFrame. This DataFrame named pcs_df included the following columns: PC 1, PC 2, and PC 3, and used the index of the crypto_df DataFrame as the index. The code used to obtain this datafrae is shown below:
 
