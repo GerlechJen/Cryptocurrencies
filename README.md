@@ -23,11 +23,19 @@ crypto_pca = pca.fit_transform(X_scaled)
 pcs_df = pd.DataFrame(data = crypto_pca, columns = ["PC 1", "PC 2", "PC 3"], index = crypto_df.index)
 ```
 
-The pcs_df is shown below:
+The pcs_df is also as shown:
 
 ![image2](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/image2.png)
 
-Then I clustered the Cryptocurrencies Using K-means
+It was then time to cluster the Cryptocurrencies Using K-means algorithm.  Using the pcs_df DataFrame, I created an elbow curve using hvPlot to find the best value for K.
+
+![image3](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/Elbow_curve.png)
+
+
+
+The best value was seen to be 4. Then, I run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data.
+
+
 Finally I made Visualizing Cryptocurrencies Results
 
 
