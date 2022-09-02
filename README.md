@@ -49,6 +49,8 @@ I finally created a table with tradable cryptocurrencies using the hvplot.table(
 
 Then I created a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
 
+![image0](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/table.png)
+
 
 
 
