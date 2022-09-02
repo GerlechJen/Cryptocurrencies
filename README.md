@@ -55,6 +55,8 @@ Finally, I used the MinMaxScaler().fit_transform method to scale the TotalCoinSu
 
 ![image7](https://github.com/GerlechJen/Credit_Risk_Analysis/blob/main/Images/table2.png)
 
+Finally, using the above dataframe I create an hvplot scatter plot with "TotalCoinsMined" on the x axis,, "TotalCoinSupply" on the y axis and by="Class". I made the plot show the CoinName when a data point is hovered over.
+
 
 
 
