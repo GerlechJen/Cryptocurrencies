@@ -65,7 +65,7 @@ Finally, using the above dataframe I create an hvplot scatter plot with "TotalCo
 
 ## Summary
 
-
+To summarize, 
 
 
 
