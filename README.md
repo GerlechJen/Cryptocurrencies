@@ -47,11 +47,11 @@ I also created a table with all the 532 currently tradable cryptocurrencies usin
 
 ![image0](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/table.png)
 
-Finally, I used the MinMaxScaler().fit_transform method to scale the TotalCoinSupply and TotalCoinsMined columns between the given range of 0 and 1. Then I created a new data frame that contained the scaled data created and uses the clustered_df data frame index as its index. I then added the CoinName and Class columns from the clustered_df data frame to this new data frame. The data frame looks like this: 
+I used the MinMaxScaler().fit_transform method to scale the TotalCoinSupply and TotalCoinsMined columns between the given range of 0 and 1. Then I created a new data frame that contained the scaled data created and uses the clustered_df data frame index as its index. I then added the CoinName and Class columns from the clustered_df data frame to this new data frame. The data frame looks like this: 
 
 ![image7](https://github.com/GerlechJen/Credit_Risk_Analysis/blob/main/Images/table2.png)
 
-Finally, using the above dataframe I create an hvplot scatter plot with "TotalCoinsMined" on the x axis,, "TotalCoinSupply" on the y axis and by="Class". I made the plot show the CoinName when a data point is hovered over.
+Finally, using the above data frame, I create an hvplot scatter plot with "TotalCoinsMined" on the x axis,, "TotalCoinSupply" on the y axis and by="Class". I made the plot show the CoinName when a data point is hovered over.
 
 ![image8](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/scatter%20plot.png)
 
