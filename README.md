@@ -57,7 +57,7 @@ Finally, I used the MinMaxScaler().fit_transform method to scale the TotalCoinSu
 
 Finally, using the above dataframe I create an hvplot scatter plot with "TotalCoinsMined" on the x axis,, "TotalCoinSupply" on the y axis and by="Class". I made the plot show the CoinName when a data point is hovered over.
 
-
+![image8](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/scatter%20plot.png)
 
 
 
