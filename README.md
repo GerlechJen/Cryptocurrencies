@@ -33,7 +33,9 @@ It was then time to cluster the Cryptocurrencies Using K-means algorithm.  Using
 
 
 
-The best value was seen to be 4. Then, I run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data.
+From the plot, the best value for K is 4. I then run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data. I then created a new DataFrame named clustered_df by concatenating the crypto dataframe and pcs_df DataFrames on the same columns. The index used for this new dataframe was same as the crypto_df DataFrame index. I added the CoinName column that holds the names of the cryptocurrencies, that was created earlier, to the clustered_df. I added another new column called 'Class' to the clustered_df that holds the predictions (model.labels_). The clustered dataframe is as shown:
+
+![image4](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/clustered_df.png)
 
 
 Finally I made Visualizing Cryptocurrencies Results
