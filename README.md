@@ -11,7 +11,12 @@ rom this dataframe I created a new dataframe that held only the cryptocurrency n
 
 ![image1](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/image1.png)
 
-I further reduced the Data dimensions Using PCA
+Using  the get_dummies() method I created variables for the two text features, Algorithm and ProofType, and stored the resulting data in a new DataFrame named X. This dataframe had 532 rows and 98 columns. Then use the StandardScaler fit_transform() function I standardized the features from the X DataFrame which completed the preprocessing of my data.
+
+Continuing with my tasks, I reduced the data dimensions using the Principal Component Analysis (PCA) algorithm. I reduced the dimensions of the X DataFrame to three principal components and placed these dimensions in a new DataFrame. This DataFrame named pcs_df included the following columns: PC 1, PC 2, and PC 3, and used the index of the crypto_df DataFrame as the index. The pcs_df is shown below:
+
+![image2](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/image2.png)
+
 Then I clustered the Cryptocurrencies Using K-means
 Finally I made Visualizing Cryptocurrencies Results
 
