@@ -38,7 +38,7 @@ From the plot, the best value for K is 4. I then run the K-means algorithm to pr
 ![image4](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/clustered_df.png)
 
 
-My final task on this project was to make visualizations of the cryptocurrencies results. I created a 3D scatter plot using the Plotly Express scatter_3d() function to plot the three principal components PC 1, PC 2 and PC 3 from the clustered_df DataFrame. I added the CoinName and Algorithm columns to the hover_name and hover_data parameters, respectively, so each data point showed the CoinName and Algorithm on hover.
+My final task on this project was to make visualizations of the cryptocurrencies results. I created a 3D scatter plot using the Plotly Express scatter_3d() function to plot the three principal components PC 1, PC 2 and PC 3 from the clustered_df data frame. I added the 'CoinName' and 'Algorithm' columns to the hover_name and hover_data parameters, respectively, so each data point showed the CoinName and Algorithm on hover.
 
 ![image6](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/3d%20plot.png)
 
