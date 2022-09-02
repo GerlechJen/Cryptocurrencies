@@ -55,13 +55,9 @@ Finally, using the above data frame, I create an hvplot scatter plot with "Total
 
 ![image8](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/scatter%20plot.png)
 
-
-
-
-
 ## Summary
 
-To summarize, the crypocurrencies were grouped into 4 classes. BitTorrent was the best performing cryptocurrency. It belonged to class 2 and had a total coin supply of 0.99 and its total coins mined was 1. 
+To summarize, there were 532 tradable cryptocurrencies. These were grouped into 4 classes. BitTorrent was the best performing cryptocurrency. It belonged to class 2 and had a total coin supply of 0.99 with total coins mined being 1. 
 
 
 ----
