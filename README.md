@@ -58,3 +58,14 @@ Then I created a table with all the currently tradable cryptocurrencies using th
 
 
 ## Summary
+
+
+
+
+
+
+----
+
+**Completed by:** Jennifer Anno-Kusi
+
+**Email:** jannokusi@gmail.com 
