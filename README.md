@@ -27,20 +27,18 @@ The pcs_df is also as shown:
 
 ![image2](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/image2.png)
 
-It was then time to cluster the Cryptocurrencies Using K-means algorithm.  Using the pcs_df DataFrame, I created an elbow curve using hvPlot to find the best value for K.
+It was then time to cluster the Cryptocurrencies using K-means algorithm. Using the pcs_df DataFrame, I created an elbow curve with hvPlot to find the best value for K.
 
 ![image3](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/Elbow_curve.png)
 
 
 
-From the plot, the best value for K is 4. I then run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data. I then created a new DataFrame named clustered_df by concatenating the crypto dataframe and pcs_df DataFrames on the same columns. The index used for this new dataframe was same as the crypto_df DataFrame index. I added the CoinName column that holds the names of the cryptocurrencies, that was created earlier, to the clustered_df. I added another new column called 'Class' to the clustered_df that holds the predictions (model.labels_). The clustered dataframe is as shown:
+From the plot, the best value for K is 4. I then run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data. Then I created a new data frame called clustered_df by concatenating the crypto data frame and pcs_df data frame on the same columns. The index used for this new data frame was same as the crypto_df data frame index. I added the CoinName column that holds the names of the cryptocurrencies, that was created earlier, to the clustered_df. I added another new column called 'Class' to the clustered_df that holds the predictions (model.labels_). The clustered dataframe is as shown:
 
 ![image4](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/clustered_df.png)
 
 
-My final task on this project was to make visualizations of the Cryptocurrencies Results
-
-I created a 3D scatter plot using the Plotly Express scatter_3d() function to plot the three principal components PC 1, PC 2 and PC 3 from the clustered_df DataFrame. I added the CoinName and Algorithm columns to the hover_name and hover_data parameters, respectively, so each data point showed the CoinName and Algorithm on hover.
+My final task on this project was to make visualizations of the cryptocurrencies results. I created a 3D scatter plot using the Plotly Express scatter_3d() function to plot the three principal components PC 1, PC 2 and PC 3 from the clustered_df DataFrame. I added the CoinName and Algorithm columns to the hover_name and hover_data parameters, respectively, so each data point showed the CoinName and Algorithm on hover.
 
 ![image6](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/3d%20plot.png)
 
