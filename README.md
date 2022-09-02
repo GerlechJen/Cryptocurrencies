@@ -44,12 +44,16 @@ I created a 3D scatter plot using the Plotly Express scatter_3d() function to pl
 
 ![image6](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/3d%20plot.png)
 
-I finally created a table with tradable cryptocurrencies using the hvplot.table() function.
+I also created a table with tradable cryptocurrencies using the hvplot.table() function.
 
 
-Then I created a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
+Then I created a table with all the 532 currently tradable cryptocurrencies using the hvplot.table() function.
 
 ![image0](https://github.com/GerlechJen/Cryptocurrencies/blob/main/Images/table.png)
+
+Finally, I used the MinMaxScaler().fit_transform method to scale the TotalCoinSupply and TotalCoinsMined columns between the given range of 0 and 1. Then I created a new DataFrame that contained the scaled data created and uses the clustered_df DataFrame index as its index. I then added the CoinName and Class columns from the clustered_df DataFrame to this new DataFrame. The datafarame looks like this: 
+
+![image7](https://github.com/GerlechJen/Credit_Risk_Analysis/blob/main/Images/table2.png)
 
 
 
